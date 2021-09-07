@@ -1,0 +1,73 @@
+.btn-top {
+    margin: 3rem;
+}
+
+.btn-new,
+.btn-past {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-new {
+    background-color: gold;
+    color: black;
+}
+
+.btn-new:hover:active {
+    background-color: rgb(221, 221, 221);
+}
+
+.btn-past {
+    background-color: rgb(221, 221, 221);
+    color: black;
+    margin-left: 1rem;
+}
+
+.btn-past:hover {
+    background-color: gold;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-bottom {
+    margin: 2.2rem;
+}
+
+.btn-load {
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: gold;
+    color: black;
+    width: 100%;
+    padding: .6rem;
+    border: none;
+}
+
+.btn-load:hover {
+    background-color: rgb(221, 221, 221);
+    transition: 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-top {
+        margin: 2rem;
+        margin-left: 1.5rem;
+    }
+    .btn-new,
+    .btn-past {
+        font-size: 12px;
+    }
+    .btn-bottom {
+        margin: 1.5rem;
+    }
+    .btn-load {
+        font-size: 18px;
+        width: 100%;
+    }
+}

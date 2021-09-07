@@ -1,0 +1,14 @@
+.footer {
+    background-color: gold;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 2.1rem;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Lalezar', cursive;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
